@@ -43,5 +43,9 @@ return [
             'tolerance' => env('STRIPE_WEBHOOK_TOLERANCE', 300),
         ],
     ],
-
+    'facebook' => [
+        'client_id' => env('CLIENT_ID'),
+        'client_secret' => env('CLIENT_SECRET'),
+        'redirect' => env('REDIRECT'),
+    ],
 ];
